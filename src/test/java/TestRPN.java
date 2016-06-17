@@ -1,6 +1,7 @@
-package rpn;
+package test.java;
 
 import junit.framework.TestCase;
+import main.RPNcalc;
 
 public class TestRPN extends TestCase {
 
@@ -42,7 +43,7 @@ public class TestRPN extends TestCase {
 
     }
 
-    public void testcase4(){
+    /*public void testcase4(){
 
         String values = "50,%,2";
         RPNcalc rpn = new RPNcalc();
@@ -53,13 +54,13 @@ public class TestRPN extends TestCase {
 			e.printStackTrace();
 		}
     }
-
+*/
     public void testcase5(){
 
         String values = "2,2,+,2";
         RPNcalc rpn = new RPNcalc();
         try {
-			assertEquals(17, rpn.calculate(values));
+			assertEquals(2, rpn.calculate(values));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,4 +1,4 @@
-package rpn.test;
+package test.java;
 
 import java.util.concurrent.TimeUnit;
 

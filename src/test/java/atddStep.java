@@ -1,10 +1,10 @@
-package rpn.test;
+package test.java;
 
 import static org.junit.Assert.*;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import rpn.RPNcalc;
+import main.RPNcalc;
 
 public class atddStep {
 
